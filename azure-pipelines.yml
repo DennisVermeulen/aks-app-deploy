@@ -21,4 +21,4 @@ steps:
   inputs:
     action: 'deploy'
     kubernetesServiceConnection: 'dennis-connection-kubernetes'
-    dockerComposeFile: 
+    dockerComposeFile: 'deployment.yml'
