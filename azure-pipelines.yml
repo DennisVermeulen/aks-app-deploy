@@ -10,6 +10,14 @@ pool: cursus
 
 steps:
 
+<<<<<<< HEAD
+=======
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
+
+>>>>>>> ecd7a99caeb6134df17129e5b9c31d385e69edce
 - task: KubernetesManifest@0
   inputs:
     action: 'deploy'
